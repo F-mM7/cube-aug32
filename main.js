@@ -40,7 +40,6 @@ camera.position.set(1, 1, 1);
 const controls = new TrackballControls(camera, canvas);
 controls.panSpeed = 0;
 controls.zoomSpeed = 0;
-controls.rotateSpeed = 8;
 
 function tick() {
   controls.update();
